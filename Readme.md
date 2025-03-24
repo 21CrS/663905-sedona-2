@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Арсен Муслимов](https://up.htmlacademy.ru/htmlcss-individual/2/user/663905).
-* Наставник: `Неизвестно`.
+* Наставник: [Сергей Остаповец](https://htmlacademy.ru/profile/seraphim).
+* Сайт: [Мой сайт Седона](https://21crs.github.io/663905-sedona-2/).
 
 ---
 

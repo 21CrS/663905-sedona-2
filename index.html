@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- Header -->
    <header class="page-header">
     <nav class="navigation">
+      <a class="navigation-logo" href="index.html">
+        <img class="page-header-logo" alt="Логотип города Седона." src="">
+      </a>
       <ul class="navigation-list">
         <li class="navigation-item">
           <a class="navigation-link" href="index.html">
@@ -38,26 +42,29 @@
             <span class="visually-hidden">
             Корзина
             </span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            ХОЧУ СЮДА!
+            <span class="cart-count">
+              12
+            </span>
           </a>
         </li>
       </ul>
+        <a class="navigation-link" href="#">
+          Хочу сюда!
+        </a>
+
     </nav>
    </header>
    <main class="main-index">
     <h1 class="visually-hidden">Седона</h1>
-    <img class="logo" src="#" alt="Логотип Седона">
+    <img class="logo" src="#" alt="Welcome to the gorgeous Sedona, because the Grand Canyon sucks!">
     <section class="advantages">
-      <h2>Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
+        <p>Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
         <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img class="logo" src="#" alt="Домики на фоне гор.">
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая площадь</h3>
@@ -74,11 +81,12 @@
           <li class="advantages-item">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <img class="logo" src="#" alt="Каньон, горы, снова горы.">
           </li>
         </ul>
     </section>
     <section class="advantages">
-      <h2>Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+        <p>Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
         <p>Опытный персонал и качественное обслуживание!</p>
         <ul class="advantages-list">
           <li class="advantages-item">
@@ -97,8 +105,8 @@
     </section>
     <section class="booking-offer">
       <h2>Заинтересовались?</h2>
-      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне.</p>
-      <button type="button">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button>
+      <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+      <a type="button" href="#">Поиск гостиницы в Седоне</a>
     </section>
   </main>
   <footer class="page-footer">
@@ -106,11 +114,12 @@
       <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="visually-hidden" for="newsletter-email">Email</label>
         <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-        <button class="button newsletter-button" type="submit">
-          <span class="visually-hidden">ПОДПИСАТЬСЯ</span>
-        </button>
+        <div class="button-container">
+          <button class="button newsletter-button" type="submit">
+            Подписаться
+          </button>
+        </div>
       </form>
     </section>
     <section class="footer-social">
@@ -137,10 +146,10 @@
       <h2 class="visually-hidden">Контакты</h2>
       <address class="footer-contacts-address">
         <a class="footer-contacts-address-phone" href="tel:+78005558628">+7 (812) 812-12-12</a>
-      </address>
-    </section>
-    <section>
-      <p><a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+      <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+        <img alt="Логотип HTML Academy" src="https://htmlacademy.ru/">
+      </a>
+    </address>
     </section>
    </footer>
   </body>
